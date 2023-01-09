@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2>RK Raghav's Weather App</h2>
+    </header>
+    <main>
+      <div class="left-side">
+        <div class="left-inner-code">
+          <button>Get Weather</button>
+          <div style="background-color: #4472C4; color: white">
+            City
+          </div>
+          <div id="london" data-value="london">London</div>
+          <div id="new-york" data-value="new york">New York</div>
+          <div id="los-angeles" data-value="los angeles">Los Angeles</div>
+          <div id="las-vegas" data-value="las vegas">Las Vegas</div>
+        </div>
+      </div>
+      <hr />
+      <div class="right-side">
+        <div class="search-sec">
+          <input type="text" id="input" placeholder="Enter City.." />
+          <button id="btn">Search</button>
+        </div>
+        <div id="append-content">
+        <div class="content">
+          <div>City</div>
+          <div>Description</div>
+          <div>Tempetature</div>
+          <div>Pressure</div>
+          <div>humidity</div>
+          <div></div>
+        </div>
+        <div id="child-container"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
